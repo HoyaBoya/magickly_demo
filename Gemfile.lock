@@ -27,6 +27,8 @@ GEM
     multi_json (1.10.1)
     multi_xml (0.5.5)
     rack (1.6.0)
+    rack-cache (1.2)
+      rack (>= 0.4)
     rack-protection (1.5.3)
       rack
     raindrops (0.13.0)
@@ -48,4 +50,5 @@ PLATFORMS
 
 DEPENDENCIES
   magickly
+  rack-cache
   unicorn
